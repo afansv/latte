@@ -1,0 +1,139 @@
+body {
+    background: #252830;
+    color: white;
+}
+
+.bg-inverse {
+    background: #1a1c22;
+}
+
+.navbar {
+    border-radius: 0;
+}
+
+hr {
+    border-top: 1px solid #434857;
+}
+
+.navbar-toggler {
+    color: white;
+}
+
+.ion {
+    margin-right: 5px;
+}
+
+.jumbotron {
+    background: inherit;
+}
+
+
+/*.btn-primary,
+.btn-primary:hover,
+.btn-outline-primary:hover {
+    background: #1997c6;
+    border-color: #1997c6;
+}
+
+.btn-outline-primary {
+    border-color: #1997c6;
+    color: #1997c6;
+}*/
+
+.container-mini {
+    width: 50%;
+    margin: auto;
+}
+
+@media screen and (max-width: 480px) {
+    .container-mini {
+        width: 85%;
+    }
+}
+
+.card:not(.card-outline-secondary, .card-outline-primary) {
+    color: #373a3c;
+}
+
+.container-mini .form-control,
+.container .form-control,
+.container-wide .form-control {
+    background-color: #252830;
+    border: 1px solid #55595c;
+    color: white;
+}
+
+.container-mini .form-control:focus,
+.container .form-control:focus,
+.container-wide .form-control:focus {
+    background-color: #252830;
+    border-color: #0275d8;
+    color: lightgrey;
+}
+
+.linked-card,
+a.linked-card:active {
+    color: white !important;
+}
+
+.linked-card:hover .card {
+    border-color: white;
+    color: white;
+}
+
+.display-inline {
+    display: inline;
+}
+
+.btn-outline-secondary:hover {
+    background: white;
+    color: #373a3c;
+}
+
+.card-outline-secondary {
+    background: #2c303a;
+    border-color: #252830 !important;
+}
+
+.card-outline-secondary:hover {
+    background-color: #373c49;
+}
+
+.modal {
+    color: #373a3c;
+}
+
+.modal .form-control {
+    background: white;
+}
+
+h4.nomargin {
+    display: inline;
+    margin-top: 10px;
+}
+
+.nomargin a {
+    color: #ccc;
+}
+
+.nav-tabs .nav-link {
+    color: white;
+}
+
+.card,
+.btn,
+.nav-link,
+.nav-pills {
+    -webkit-transition-duration: 0.75s;
+    transition-duration: 0.75s;
+}
+
+.nav-tabs .nav-link.active {
+    background: #252830;
+    color: white;
+}
+
+.nav-tabs .nav-link.active:hover {
+    background: #252830;
+    color: white;
+}
